@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: var(--DCCA87, #DCCA87);
+    font-family: "Cormorant Upright";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 117px */
+    letter-spacing: 3.6px;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: var(--DCCA87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: "Cormorant Upright";
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%; /* 83.2px */
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: var(--DCCA87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: "Cormorant Upright";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 41.6px */
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+}
+
+p {
+    color: var(--AAAAAA, #AAA);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.btn {
+    padding: 8px 32px;
+    background: var(--DCCA87, #DCCA87);
+    border: 1px solid #DCCA87;
+    color: #0C0B08;
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+    transition: .3s;
+}
+
+.btn:hover {
+    border: 1px solid #DCCA87;
+    color: white;
+    background: transparent;
+}
+
+
+/* ======================================= */
+
+/* slik slider css */
+
+.slick-list{
+    padding-left: 0 !important;
+}
+.slick-center{
+    position: relative;
+}
+.slick-center::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #00000077;
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+.slick-center::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(../Images/instagram.png) no-repeat center;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* arrow  */
+
+.photoSlider{
+    position: relative;
+}
+
+.photoSlider .left{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    height: 40px;
+    width: 40px;
+    color: rgb(12, 11, 10);
+    background-color: #DCCA87;
+    border-radius: 50%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+    transition: 0.4s;
+}
+.photoSlider .left:hover{
+    border: 1px solid #DCCA87;
+    background: transparent;
+    color: #ffffff;
+}
+.photoSlider .right{
+    position: absolute;
+    right: 72px;
+    top: 50%;
+    transform: translate(50% , -50%);
+    height: 40px;
+    width: 40px;
+    color: rgb(12, 11, 10);
+    background-color: #DCCA87;
+    border-radius: 50%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+}
+.photoSlider .right:hover{
+    border: 1px solid #DCCA87;
+    background: transparent;
+    color: #ffffff;
+}
+
+/* arrow  */
+
+/* slik slider css */
+
+/* ==================navber hover================= */
+ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.shef{
+    display: none;
+    transition: .4s;
+}
+ul li ul li:hover ul{
+    opacity: 1;
+    display: block;
+
+}
+/* ==================navber hover================= */

@@ -1,0 +1,302 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerícht</title>
+  <link rel="stylesheet" href="./CSS/slick.css">
+  <link rel="stylesheet" href="./CSS/all.min.css">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!-- google fonts (common) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <!-- google fonts (common) -->
+
+  <!-- google fonts (headings) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <!-- google fonts (headings) -->
+
+</head>
+<body class="bg-[#0C0B08]">
+
+    <!-- wave elements -->
+    <!-- <div class="right_wave absolute top-[1046px] right-[-1px] z-10">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="10984" viewBox="0 0 1920 10984" fill="none">
+            <path opacity="0.2" d="M1981 1.5C1548.17 17.3333 628.6 219.8 413 903C197.4 1586.2 907.833 2324 1290 2607.5C1701.17 2878.83 2276.8 3984 1290 6234C56.5 9046.5 222.5 9261 1290 10693L2083.5 11722C1816.83 11757.3 1309.1 12027.4 1411.5 12825C1513.9 13622.6 416.833 14547 -144.5 14909.5" stroke="#ABABAB" stroke-width="2"/>
+        </svg>
+    </div>
+    <div class="left_wave absolute top-[1137px] right-[1352px] z-10">
+        <svg xmlns="http://www.w3.org/2000/svg" width="560" height="10694" viewBox="0 0 560 10694" fill="none">
+            <path opacity="0.2" d="M-1049 1C-616.167 16.8333 303.4 219.3 519 902.5C734.6 1585.7 24.1667 2323.5 -358 2607C-769.167 2878.33 -1344.8 3983.5 -358 6233.5C875.5 9046 709.5 9260.5 -358 10692.5" stroke="#ABABAB" stroke-width="2"/>
+        </svg>
+    </div> -->
+    <!-- wave elements -->
+
+    <div class="primary_layer relative z-50">
+        <!-- navbar -->
+        <nav>
+            <div class="container max-w-[1920px] px-[120px] py-8 flex justify-center items-center">
+                <div class="flex justify-between w-[100%] items-center">
+                    <div class="logo"><a href="index.html"><img src="./Images/Gerícht-logo.png" alt=""></a></div>
+                    <div class="menu">
+                        <ul
+                            class="flex gap-x-8 justify-center items-center font-common text-base leading-7 tracking-[0.64px] text-white relative">
+                            <li><a class="hover:text-[#DCCA87] hover:transition-all hover:duration-300" href="index.html">Home</a></li>
+                            <li>
+                                <a class="hover:text-[#DCCA87] hover:transition-all hover:duration-300" href="">Pages</a>
+                                <ul class="w-40 py-3 absolute bg-[#141010] rounded-lg z-50 ">
+                                    <li class="hover:bg-black py-2 px-4">
+                                        <a class="text-white hover:text-[#DCCA87]" href="./aboutUs.html">About Us</a>
+                                    </li>
+                                    <li class="hover:bg-black py-2 px-4">
+                                        <a class="text-white hover:text-[#DCCA87]" href="./services.html">Our Services</a>
+                                    </li>
+                                    <li class="hover:bg-black py-2 px-4">
+                                        <a class="text-white hover:text-[#DCCA87]" href="./FAQ.html">FAQ</a>
+                                    </li>
+                                    <li class="relative hover:bg-black py-2 px-4">
+                                        <a class="text-white hover:text-[#DCCA87]" href="./ourTeam.html">Our Team</a>
+                                        <ul class="shef w-40 bg-[#1b10107a] left-full top-0 absolute">
+                                            <li class="hover:bg-black py-2 px-4"><a
+                                                    class="text-white hover:text-[#DCCA87]" href="./ourTeam.html">Chef’s Team</a>
+                                            <li class="hover:bg-black py-2 px-4"><a
+                                                    class="text-white hover:text-[#DCCA87]" href="./chefDetails.html">Chef Details</a>
+                                        </ul>
+                                    </li>
+                                    <li class="relative hover:bg-black py-2 px-4">
+                                        <a class="text-white hover:text-[#DCCA87]" href="./soon.html">Comming Soon</a>
+                                    </li>
+                                    <li class="hover:bg-black py-2 px-4">
+                                        <a class="text-white hover:text-[#DCCA87]" href="./404.html">Error Page</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="hover:text-[#DCCA87] hover:transition-all hover:duration-300" href="contactUs.html">Contact Us</a></li>
+                            <li>
+                                <a class="hover:text-[#DCCA87] hover:transition-all hover:duration-300" href="#blog">Blog</a>
+                                <ul class="w-[200px] py-3 absolute bg-[#141010] rounded-lg z-50 ">
+                                    <li class="hover:bg-black py-2 px-4"><a class="text-white hover:text-[#DCCA87]"
+                                            href="./blog.html">Blog with sidebar</a>
+                                    </li>
+                                    <li class="hover:bg-black py-2 px-4"><a class="text-white hover:text-[#DCCA87]"
+                                            href="./blog_column.html">Blog
+                                            single column</a></li>
+                                    <li class="hover:bg-black py-2 px-4"><a class="text-white hover:text-[#DCCA87]"
+                                            href="./blogDetails.html">Blog
+                                            detail</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="hover:text-[#DCCA87] hover:transition-all hover:duration-300" href="soon.html">Landing</a></li>
+                        </ul>
+                    </div>
+                    <div class="buttons flex gap-x-[50px] items-center text-white text-base leading-7 font-semibold tracking-[0.8px] capitalize">
+                        <div class="log_ins">
+                            <a href="404.html">log in</a>
+                            <span class="">/</span>
+                            <a href="404.html">registration</a>
+                        </div>
+                        <span class="line">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="2" height="57" viewBox="0 0 2 57"
+                                fill="none">
+                                <path d="M1 0V57" stroke="url(#paint0_radial_572_127)" />
+                                <defs>
+                                    <radialGradient id="paint0_radial_572_127" cx="0" cy="0" r="1"
+                                        gradientUnits="userSpaceOnUse"
+                                        gradientTransform="translate(1.5 28.5) rotate(90) scale(28.5 0.5)">
+                                        <stop offset="0.588542" stop-color="white" />
+                                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                                    </radialGradient>
+                                </defs>
+                            </svg>
+                        </span>
+                        <a href="#reservation" class="hover:text-[#DCCA87] hover:transition-all hover:duration-300">Book table</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <!-- banner -->
+        <section id="banner">
+            <div class="container relative max-w-full">
+                <div class="banner_slider relative after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-[#05050580] z-10">
+                    <div class="w-full">
+                        <img class="w-full" src="Images/service-slider_img-1.png" alt="">
+                    </div>
+                    <div>
+                        <img class="w-full" src="Images/service-slider_img-2.png" alt="">
+                    </div>
+                </div>
+                <div class="absolute z-30 flex flex-col items-center justify-center gap-6 -translate-x-1/2 -translate-y-1/2 text top-1/2 left-1/2">
+                    <h1 class="whitespace-nowrap">frequently asked questions</h1>
+                    <div class="flex items-center justify-center gap-2 breadcrumb">
+                        <div>
+                            <a href="index.html" class="text-[23px] text-white font-sub font-bold leading-[130%] tracking-[0.92px] capitalize">Home</a>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                <path d="M15.9881 11.4238L10.066 5.991C9.65045 5.60294 9.02708 5.60294 8.61149 5.991C8.19591 6.37906 8.19591 6.96115 8.61149 7.34921L13.7024 12.2L8.61149 17.0507C8.19591 17.4388 8.19591 18.0208 8.61149 18.4089C8.81928 18.6029 9.02708 18.7 9.33877 18.7C9.65045 18.7 9.85825 18.6029 10.066 18.4089L15.9881 12.9761C16.4037 12.491 16.4037 11.9089 15.9881 11.4238C15.9881 11.5208 15.9881 11.5208 15.9881 11.4238Z" fill="#DCCA87"/>
+                            </svg> 
+                        </div>
+                        <div>
+                            <a href="services.html" class="text-[23px] text-white font-sub font-bold leading-[130%] tracking-[0.92px] capitalize">FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner -->
+
+        <!-- FAQ -->
+        <section id="FAQ" class="py-[152px]">
+            <div class="container flex w-[1300px] justify-between gap-x-8 pb-[202px]">
+                <div class=" h-[648px]  relative child1 before:contents[''] before:absolute before:left-[-24px] before:bottom-0 before:w-[435px] before:h-[383px] before:bg-[#DCCA87] before:z-[1] after:contents[''] after:absolute after:top-0 after:right-[-24px] after:w-[413px] after:h-[383px] after:bg-[#DCCA87] after:z-[2] " >
+                    <img class=" relative top-[24px] z-[3] h-[600px] w-[586px]" src="../src/Images/FAQ.jpg" alt="">
+                </div>
+                <div class="flex flex-col child2 gap-y-4">
+                    <div class="py-6 px-6  max-w-[586px] faq1 bg-[#242424] group transition-all">
+                        <h4 class=" font-bold font-Cormorant text-[23px] leading-[130%] tracking-[0.04em] text-[#FFFFFF] mb-4 group-hover:text-[#DCCA87]">How do i reach to the restaurant?</h4>
+                        <p class="h-0 opacity-0 invisible font-normal text-[16px] leading-[175%]tracking-[0.04em]font-Open Sans text-[#AAAAAA] group-hover:opacity-100 group-hover:visible group-hover:h-[100%] group-hover:transition group-hover:duration-[.6s] ease-linear">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div> 
+                    <div class="faq2 px-6 py-6 max-w-[586px] bg-[#242424] group">
+                        <h4 class="font-bold font-Cormorant text-[23px] leading-[130%]tracking-[0.04em] text-[#FFFFFF] group-hover:text-[#DCCA87] ">Is there a reservation required?</h4>
+                        <p class="h-0 opacity-0 invisible font-normal text-[16px] leading-[175%]tracking-[0.04em]font-Open Sans text-[#AAAAAA] group-hover:opacity-100 group-hover:visible group-hover:h-[100%] transition duration-[.6s] ease-linear">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                    <div class="faq3 px-6 py-6 max-w-[586px] bg-[#242424] group">
+                        <h4 class="font-bold font-Cormorant text-[23px] leading-[130%]tracking-[0.04em] text-[#FFFFFF] group-hover:text-[#DCCA87]">Can i host an event at The restaurant?</h4>
+                        <p class="h-0 opacity-0 invisible font-normal text-[16px] leading-[175%]tracking-[0.04em]font-Open Sans text-[#AAAAAA] group-hover:opacity-100 group-hover:visible group-hover:h-[100%] transition duration-[.6s] ease-linear">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            
+                    </div>
+                    <div class="faq4 px-6 py-6 max-w-[586px] bg-[#242424] group">
+                        <h4 class="font-bold font-Cormorant text-[23px] leading-[130%]tracking-[0.04em] text-[#FFFFFF] group-hover:text-[#DCCA87]">Is valet parking available at the restaurant?</h4>
+                        <p class="h-0 opacity-0 invisible font-normal text-[16px] leading-[175%]tracking-[0.04em]font-Open Sans text-[#AAAAAA] group-hover:opacity-100 group-hover:visible group-hover:h-[100%] transition duration-[.6s] ease-linear">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                    <div class="faq5 px-6 py-6 max-w-[586px] bg-[#242424] group">
+                        <h4 class="font-bold font-Cormorant text-[23px] leading-[130%]tracking-[0.04em] text-[#FFFFFF] group-hover:text-[#DCCA87]">When are the happy hours of your bar?</h4>
+                        <p class="h-0 opacity-0 invisible font-normal text-[16px] leading-[175%]tracking-[0.04em]font-Open Sans text-[#AAAAAA] group-hover:opacity-100 group-hover:visible group-hover:h-[100%] transition duration-[.6s] ease-linear">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                    <div class="faq6 px-6 py-6 max-w-[586px] bg-[#242424] group">
+                        <h4 class="font-bold font-Cormorant text-[23px] leading-[130%]tracking-[0.04em] text-[#FFFFFF] group-hover:text-[#DCCA87]">Is seafood available at the restaurant?</h4>
+                        <p class="h-0 opacity-0 invisible font-normal text-[16px] leading-[175%]tracking-[0.04em]font-Open Sans text-[#AAAAAA] group-hover:opacity-100 group-hover:visible group-hover:h-[100%] transition duration-[.6s] ease-linear">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ -->
+        
+        <!-- footer -->
+        <footer class="bg-image bg-cover pt-[349px] pb-[128px] relative after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-[#05050580] z-10">
+            <div class="round_animation w-[146px] absolute top-[-269px] right-[151px] z-50">
+                <img src="./Images/rotate_animation.png" alt="" class="animate-rotate w-full">
+            </div>
+            <div class="container max-w-[1300px]">
+                <div class="top_scroll flex flex-col gap-y-2 items-center absolute top-[173px] right-[6%] z-20">
+                    <div class="line">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2" height="61" viewBox="0 0 2 61" fill="none">
+                            <path d="M1 61L1.00001 9.53674e-07" stroke="url(#paint0_linear_566_1693)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_566_1693" x1="29.5042" y1="-11.8571" x2="29.5042"
+                                    y2="78.2931" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#DCCA87" />
+                                    <stop offset="0.430036" stop-color="#DCCA87" />
+                                    <stop offset="0.927083" stop-color="#DCCA87" stop-opacity="0.24" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <a href="#">
+                        <span
+                            class="text-base text-[#DCCA87] uppercase font-sub font-bold leading-[175%] tracking-[0.64px]">top</span>
+                    </a>
+                </div>
+                <div
+                    class="subscribe absolute top-[1px] left-[50%] translate-x-[-50%] translate-y-[-50%] z-20 px-[252px] py-16 bg-[#0C0C0C] border border-[#dcca8733] border-solid shadow-subs-shadow">
+                    <div class="flex flex-col justify-center items-center">
+                        <span
+                            class="text-white text-[23px] font-sub font-bold leadinng-[130%] tracking-[0.92px] capitalize">Newsletter</span>
+                        <div class="my-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="9" viewBox="0 0 40 9"
+                                fill="none">
+                                <path
+                                    d="M33.5016 9C37.0849 9 40 6.98129 40 4.49995C40 2.01861 37.0849 0 33.5016 0C30.1122 0 27.3221 1.80637 27.03 4.1018H22.3529V3.1552L0 3.1552V5.84446L22.353 5.84446V4.89798H27.0301C27.3223 7.19352 30.1122 9 33.5016 9ZM21.4898 5.04839L0.863293 5.04839V3.95161L21.4898 3.95161V5.04839ZM27.8662 4.49995C27.8662 2.45778 30.3944 0.796403 33.5017 0.796403C36.6091 0.796403 39.1372 2.45778 39.1372 4.49995C39.1372 6.54222 36.6091 8.2037 33.5017 8.2037C30.3944 8.2037 27.8662 6.54222 27.8662 4.49995Z"
+                                    fill="#DCCA87" />
+                            </svg>
+                        </div>
+                        <h2 class="text-[64px] font-bold mb-6 whitespace-nowrap">
+                            Subscribe to Our Newsletter
+                        </h2>
+                        <p class="text-base text-white">
+                            And never miss latest Updates!
+                        </p>
+                    </div>
+                    <div class="mt-16 flex justify-between items-center gap-x-8">
+                        <input type="text"
+                            class="px-[19px] py-4 text-base text-[#AAA] font-headings leading-[175%] tracking-[0.64px] capitalize font-semibold w-[100%] border border-solid border-[#F5EFDB] bg-transparent focus:outline-none"
+                            placeholder="Email Address">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="index-1 relative z-10">
+                    <div class="menu flex justify-between items-center">
+                        <div class="left">
+                            <ul class="text-center">
+                                <h5
+                                    class="text-[32px] leading-[130%] tracking-[1.28px] text-[#F5EFDB] font-sub font-normal capitalize">
+                                    Contact Us</h5>
+                                <div class="text-[#aaa] text-base font-common leading-[175%] tracking-[0.64px]">
+                                    <li class="mb-2 mt-6"><a href="#">9 W 53rd St, New York, NY 10019, USA</a></li>
+                                    <li><a href="tel:+1 212-344-1230">+1 212-344-1230</a></li>
+                                    <li><a href="tel:+1 212-344-1230">+1 212-555-1230</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="middle flex flex-col items-center">
+                            <a href="index.html"><img src="./Images/footer_logo.png" alt="footer_logo"></a>
+                            <p class="max-w-[438px] text-center mt-8 mb-4">"The best way to find yourself is to lose
+                                yourself in the service of others.”</p>
+                            <div class="mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="9" viewBox="0 0 40 9"
+                                    fill="none">
+                                    <path
+                                        d="M33.5016 9C37.0849 9 40 6.98129 40 4.49995C40 2.01861 37.0849 0 33.5016 0C30.1122 0 27.3221 1.80637 27.03 4.1018H22.3529V3.1552L0 3.1552V5.84446L22.353 5.84446V4.89798H27.0301C27.3223 7.19352 30.1122 9 33.5016 9ZM21.4898 5.04839L0.863293 5.04839V3.95161L21.4898 3.95161V5.04839ZM27.8662 4.49995C27.8662 2.45778 30.3944 0.796403 33.5017 0.796403C36.6091 0.796403 39.1372 2.45778 39.1372 4.49995C39.1372 6.54222 36.6091 8.2037 33.5017 8.2037C30.3944 8.2037 27.8662 6.54222 27.8662 4.49995Z"
+                                        fill="#DCCA87" />
+                                </svg>
+                            </div>
+                            <div class="icons flex gap-x-4 text-2xl text-white">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <ul class="text-center">
+                                <h5
+                                    class="text-[32px] leading-[130%] tracking-[1.28px] text-[#F5EFDB] font-sub font-normal capitalize">
+                                    Working Hours</h5>
+                                <p class="mt-6">
+                                    Monday-Friday: <br>
+                                    08:00 am -12:00 am
+                                </p>
+                                <p class="mt-2">
+                                    Saturday-Sunday: <br>
+                                    07:00am -11:00 pm
+                                </p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center mt-[80px]">2021 Gerícht. All Rights reserved.</p>
+            </div>
+        </footer>
+        <!-- footer -->
+    </div>
+
+    <script src="./JS/jquery-1.12.4.min.js"></script>
+    <script src="./JS/slick.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
